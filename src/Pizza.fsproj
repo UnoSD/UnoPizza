@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Helpers.fs" />
+    <Compile Include="Models.fs" />
+    <Compile Include="Messages.fs" />
+    <Compile Include="Tabs.fs" />
+    <Compile Include="Updates.fs" />
+    <Compile Include="Recipe.fs" />
+    <Compile Include="Leavening.fs" />
+    <Compile Include="About.fs" />
+    <Compile Include="Pages.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
